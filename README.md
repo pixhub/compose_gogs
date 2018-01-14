@@ -5,10 +5,10 @@ docker-compose Gogs and Percona-MySQL server behind Trafik
 
 This docker-compose.yml builds a Gogs server with Git and his MySQL Database behind a Traefik reverse Proxy.
 The Traefik reverse Proxy is in a DMZ Network,
-Gogs server is in the Backoffice Network,
+Gogs server in the Frontoffice Network,
 MySQL Percona Database in the Backoffice Network.
 
-All the applicative Chain communicates through Traefik.
+All the applicative Chain communicates through Traefik and the docker networks made by docker-compose file.
 
 ## Test it on local
 
