@@ -46,7 +46,7 @@ http://gogs.domain.local
 
 To configure the Database, just put `mysql_db` in the right gogs installation field, that's the container's name I inquired in the docker-compose file
 
-Also, you can access to the Traefik Dashboard by :
+Also, you can access to the Traefik Dashboard through :
 ```
 http://traefik.domain.local
 ```
